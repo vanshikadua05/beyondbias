@@ -9,18 +9,16 @@ and open the template in the editor.
 <head>
     <title>Jobseeker Sign In</title>
     <style>
-          body {
+        body {
             background-color: #f2f2f2;
             margin: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
         }
-         h2 {
-            color: #1e5783;
-        }
+
         header {
             padding: 20px;
-            background-color: #3ea5d5;
+            background-color:#3ea5d5;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -32,7 +30,7 @@ and open the template in the editor.
         .container {
             margin: auto;
             width: 80%;
-            max-width: 500px; /* Set a maximum width */
+            max-width: 500px;
             padding: 20px;
             background-image: linear-gradient(#a0c7da, white);
             box-shadow:20px -19px 8px rgb(0 0 0 / 24%);
@@ -44,7 +42,8 @@ and open the template in the editor.
             border: 1px solid #ccc;
             padding: 30px;
             margin-top: 30px;
-            background-color: #fff;
+            background-image: linear-gradient(#a0c7da, white);
+            
             border-radius: 10px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -96,7 +95,7 @@ and open the template in the editor.
         }
 
         .submit:hover{
-            background-color: #338ab2;
+            background-color: #3ea5d5;
         }
         input[type="submit"] {
     width: 100%;
@@ -142,6 +141,7 @@ cb=googleTranslateElementInit">
     </header>
     <div class="container">
          <a href="index.html" style="text-decoration: none; color: #0074D9; display: block; margin-bottom: 10px;"> Back to Home</a>
+        <div class="box">
         <h2>Jobseeker Sign Up for Registration</h2>
         <form action="sign.jsp" method="post">
             <label for="email">Email:</label>
@@ -159,6 +159,7 @@ cb=googleTranslateElementInit">
                 
                 <input type="submit" value="Sign Up"><br>
         </form>
+    </div>
     </div>
 </body>
 </html>
