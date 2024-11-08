@@ -46,7 +46,7 @@
         %>
                     <script>
                         alert("Job details updated successfully!");
-                        window.location.href = "homejobporatl.jsp"; 
+                        window.location.href = "index.jsp"; 
                     </script>
         <% 
                 } else {
