@@ -334,7 +334,7 @@ cb=googleTranslateElementInit">
             var confirmation = confirm("Are you sure you want to logout?");
             if (confirmation) {
                 alert("Logged out successfully!");
-                window.location.href = "homejobporatl.html";
+                window.location.href = "index.html";
             }
         }
     </script>
