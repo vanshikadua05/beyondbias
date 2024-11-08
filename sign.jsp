@@ -113,7 +113,7 @@
                     document.getElementById("overlay").style.display = "none";
 
                     // Redirect to home page
-                    window.location.href = "homejobporatl.html"; // Replace with your actual home page URL
+                    window.location.href = "index.html"; // Replace with your actual home page URL
                 }
 
                 // Call the showSuccessDialog function after the DOM has fully loaded
