@@ -81,7 +81,30 @@ button:hover {
     color: #333;
     font-weight: bold;
 }
-
+@media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .container.main-content {
+                max-width: 90%;
+                margin: 20px auto;
+            }
+            .tagline {
+                font-size: 24px;
+            }
+            .description {
+                font-size: 16px;
+            }
+            .grid-container {
+                flex-wrap: wrap;
+            }
+            .grid-item {
+                width: 100%;
+            }
+            .grid-benefits .grid {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
