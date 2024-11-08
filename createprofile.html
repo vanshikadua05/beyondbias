@@ -130,7 +130,30 @@ button:hover {
 button:focus {
     outline: none;
     box-shadow: 0 0 3px 3px rgba(0, 116, 217, 0.5); 
-}
+}@media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            .container.main-content {
+                max-width: 90%;
+                margin: 20px auto;
+            }
+            .tagline {
+                font-size: 24px;
+            }
+            .description {
+                font-size: 16px;
+            }
+            .grid-container {
+                flex-wrap: wrap;
+            }
+            .grid-item {
+                width: 100%;
+            }
+            .grid-benefits .grid {
+                width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
